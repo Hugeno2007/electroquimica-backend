@@ -1,0 +1,22 @@
+# Entornos virtuales
+venv/
+.venv/
+myvenv/
+
+# Configuración local y credenciales
+.env
+.env.*
+!.env.example
+
+# Bases SQLite locales
+*.db
+*.sqlite
+*.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
